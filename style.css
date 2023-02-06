@@ -1,0 +1,515 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body
+{
+    max-width: 1440px;
+    background-color: white;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+#cupomDiv
+{
+    text-align: center;
+    background-color: #D5725C;
+    height: 38px;
+    position: relative;
+}
+#menuContainer
+{
+    background-color: #F6F6F6;;
+    position: relative;
+
+}
+#cupomLink
+{
+    color: white;
+    border-bottom: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 12px;
+}
+#menuList
+{
+    margin-top: 28px;
+    margin-left: 32px;
+    position: relative;
+    z-index: 2;
+}
+#leftMenuDiv
+{
+    display: inline-block;
+    text-align: left;
+}
+#rightMenuDiv
+{
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 32px;
+}
+#searchLi
+{
+    display: inline-block;
+    position: relative;
+  
+}
+#tittleLi
+{
+    display: inline-block;
+    margin-right: 62px;
+}
+#tittle
+{
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.leftmenuButtonLi
+{
+
+    margin-right: 32px;
+    display: inline-block;
+    position: relative;
+}
+.rightMenuButtonLi
+{
+    position: relative;
+    margin-left: 48px;
+    display: inline-block;
+}
+#searchText
+{
+    width: 181px;
+    height: 26px;
+    border-radius: 4px;
+    padding-left: 16px;
+    position: inherit;
+    top: 50%;
+}
+.menuLink
+{
+    font-size: 14px;
+    line-height: 16px;
+    color: #39282599;
+    position: relative;
+    top: -3px;
+}
+.menuLink
+{
+    vertical-align: middle;
+}
+.menuImages
+{
+    margin-right: 16px;
+}
+#lupa
+{
+    position: absolute;
+    right: 0%;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#menuDataDiv
+{
+    height: 607px;
+    position: relative;
+    margin-left: 160px;
+}
+#menuImage
+{
+position: absolute;
+top: 0%;
+right: 0%;
+z-index: 1;
+}
+#menuDataTittle
+{
+    font-size: 56px;
+    color: #392825;
+    z-index: 2;
+}
+#menuContent
+{
+    text-align: left;
+    position: absolute;
+    top: 120px;
+    z-index: 2;
+}
+
+#menuDataText
+{
+    width: 447px;
+    color: #ADB5BD;
+    margin-top: 27px;
+    margin-bottom: 80px;
+}
+#menuDataButton
+{
+    color: white;
+    border-radius: 8px;
+    background-color: #D5725C;
+   font-size: 19px;
+   font-weight:500;
+
+   padding: 14px 100px 14px 100px
+}
+.menuSocialMedias
+{
+    margin-top: 45px;
+    display: inline-block;
+    margin-right: 8px;
+}
+.slideCountShow
+{
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 20px;
+}
+#bubble
+{
+    position: absolute;
+    right:0%;
+    top:38px;
+    z-index: 2;
+}
+#bubble2
+{
+    position: absolute;
+    left:0%;
+    bottom:0%;
+    z-index: 2;
+}
+#bubble3
+{
+    position: absolute;
+    left:159px;
+    bottom:35px;
+    z-index: 2;
+}
+#bubble4
+{
+    position: absolute;
+    left:175px;
+    bottom:175px;
+    z-index: 2;
+}
+#carroselCount
+{
+    text-align: center;
+}
+#dataRec
+{
+    display: inline-block;
+    position: relative;
+    top: 80px;
+    right:19px;
+}
+#menuImage
+{
+    width: 70%;
+}
+#infoDiv
+{
+    height: 102px;
+    position: relative;
+}
+#infoUl
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.infoLi
+{
+    display: inline-block;
+    margin-left: 186px;
+    text-align: center;
+}
+
+.mainP
+{
+    color: white;
+    margin-top: 8px;
+}
+#carroselContainer
+{
+    margin-top: 80px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+#carroselDiv
+{
+    position: absolute;
+    left: 50%;
+    overflow: hidden;
+    transform: translateX(-50%);
+    width: 1100px;
+    height: 100%;
+}
+.carroselItens
+{
+    display: inline-block;
+    margin-left: 16px;
+    margin-right: 16px;
+    text-align: left;
+    position: relative;
+}
+.mark
+{
+    position: absolute;
+    top: 0%;
+    font-size: 11px;
+    letter-spacing: 1px;
+    background-color: #F9EBD8;
+    padding: 5px 20px 5px 20px;
+    border-radius: 12px;
+    margin: 12px 0px 0px 12px;
+    font-weight: lighter;
+
+}
+.brand
+{
+    display: inline-block;
+}
+#leftArrow
+{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+#rightArrow
+{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+}
+.shoesPic
+{
+    border-radius: 4px;
+}
+.shoesArrow
+{
+    position: absolute;
+    top: 14px;
+    right: 12px;
+}
+.shoesText
+{
+    font-size: 16px;
+    color: #392825;
+    margin-top: 10px;
+}
+.starsContainer
+{
+    margin-top: 8px;
+}
+.shoesData
+{
+    margin-top: 25px;
+}
+.oldPrice
+{
+    font-size: 12px;
+    color: #39282599;
+}
+.newPrice
+{
+    font-size: 16px;
+    color: #392825;
+    font-weight: bold;
+}
+.descont
+{
+    margin-left: 16px;
+    color: white;
+    background-color: #8AC455;
+    padding: 5px 22px 5px 22px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.shoesPaymentText
+{
+    font-size: 12px;
+    color: #39282599;
+    margin-top: 13px;
+}
+.buyLink
+{
+    color: white;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: center;
+    background-color: #D5725C;
+    padding: 12px 80px 12px 80px;
+   border-radius: 8px;
+}
+.buyLink:hover
+{
+    background-color: #d66951;
+}
+#middleContentContainer
+{
+    position: relative;
+    height: 540px;
+    margin-top: 80px;
+}
+#middleContent
+{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+width: 80%;
+background-color: #F6F6F6;
+}
+
+#middleDiv
+{
+
+ display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 380px;
+    text-align: center;
+}
+h5
+{
+    font-size: 24px;
+    color: #392825;
+}
+#middleP
+{
+    color: #39282599;
+    font-size: 16px;
+    margin-top: 12px;
+    width: 189px;
+    transform: translateX(+50%);
+    margin-bottom: 38px;
+}
+#middlePic
+{
+    float: right;
+}
+#middleA
+{
+    padding: 11px 75px 11px 75px;
+    color: #D5725C;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 8px;
+    border: solid 1px #D5725C;
+
+}
+#footerNewsLetterContainer
+{
+    background-color: #392825;
+    margin: 80px 160px 80px 160px;
+    height: 270px;
+    position: relative;
+}
+#newsLetterDiv
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+h6
+{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+#email
+{
+    background-color: #392825;
+    border-color: white;
+    border-radius: 8px;
+    padding: 12px 360px 12px 16px;
+    color: white;
+}
+#email::placeholder
+{
+    color: white;
+}
+#newsLetterInput
+{
+    float: right;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0%;
+    transform: translateY(-50%);
+    margin-left: 12px;
+    font-size: 16px;
+    
+}
+#footerLinksContainer
+{
+    margin-left: 160px;
+}
+.footerUl
+{
+    margin-right: 160px;
+    display: inline-block;
+    vertical-align: top;
+}
+.footerLink
+{
+    color: #39282599;
+}
+.paymentMetod
+{
+display: inline-block;
+margin-right: 16px;
+}
+.footerUl2
+{
+    display: inline-block;
+}
+.footerSocialMedias
+{
+    display: inline-block;
+    margin-left: 16px;
+}
+#footerRight
+{
+    position: absolute;
+    right: 0%;
+    
+    
+}
+#footerLastDiv
+{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    position: relative;
+    width: 80%;
+}
